@@ -4,6 +4,7 @@
   "repository": "https://github.com/graphprotocol/uniswap-v2-subgraph",
   "license": "GPL-3.0-or-later",
   "scripts": {
+    "watch": "tsc -w -p ./tsconfig.watch.json",
     "lint": "eslint . --ext .ts --fix",
     "build": "run-s codegen && graph build",
     "buildonly": "graph build",
